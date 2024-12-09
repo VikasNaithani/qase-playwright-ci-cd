@@ -1,5 +1,5 @@
 {
-  "name": "demo",
+  "name": "qase-playwright",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,9 @@
   "description": "",
   "dependencies": {
     "@playwright/test": "^1.49.0",
+    "qase-javascript-commons": "^2.2.7"
+  },
+  "devDependencies": {
     "playwright": "^1.49.0",
     "playwright-qase-reporter": "^2.0.16"
   }
