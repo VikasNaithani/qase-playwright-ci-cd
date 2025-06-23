@@ -1,4 +1,8 @@
 const config = {
+    use: {
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
+  },
     reporter: [
       ['list'], 
       [         
